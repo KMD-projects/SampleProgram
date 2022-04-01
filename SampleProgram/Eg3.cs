@@ -3,7 +3,7 @@ namespace SampleProgram
 {
     public class Eg3
     {
-        public static void Main2()
+        public static void Main()
         {
             int num1, num2, result;
 

@@ -3,7 +3,7 @@ namespace SampleProgram
 {
     public class Eg2
     {
-        static void Main2(string[] args)
+        static void Main(string[] args)
         {
             String StudentName, Section, Time;
 
