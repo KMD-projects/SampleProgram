@@ -10,12 +10,14 @@
     <None Remove="assignments\chapter1\" />
     <None Remove="assignments\chapter2\" />
     <None Remove="assignments\chapter3\" />
+    <None Remove="assignments\chapter4\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="assignments\" />
     <Folder Include="assignments\chapter1\" />
     <Folder Include="assignments\chapter2\" />
     <Folder Include="assignments\chapter3\" />
+    <Folder Include="assignments\chapter4\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="Eg1.cs" />
@@ -23,9 +25,14 @@
     <Compile Remove="Eg3.cs" />
     <Compile Remove="Program.cs" />
     <Compile Remove="assignments\chapter2\Student.cs" />
-    <Compile Remove="assignments\ProductOrderList.cs" />
     <Compile Remove="assignments\chapter3\Assignment1.cs" />
     <Compile Remove="assignments\chapter3\Assignment2.cs" />
+    <Compile Remove="assignments\chapter3\Assignment3.cs" />
+    <Compile Remove="assignments\chapter4\Assignment1.cs" />
+    <Compile Remove="Eg6.cs" />
+    <Compile Remove="assignments\chapter4\Assignment4.cs" />
+    <Compile Remove="assignments\chapter4\Assignment5.cs" />
+    <Compile Remove="assignments\chapter4\Assignment2.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Eg1.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
@@ -33,8 +40,13 @@
     <None Include="Eg3.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
     <None Include="Program.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
     <None Include="assignments\chapter2\Student.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
-    <None Include="assignments\ProductOrderList.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
     <None Include="assignments\chapter3\Assignment1.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
     <None Include="assignments\chapter3\Assignment2.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
+    <None Include="assignments\chapter3\Assignment3.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
+    <None Include="assignments\chapter4\Assignment1.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
+    <None Include="Eg6.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
+    <None Include="assignments\chapter4\Assignment4.cs" />
+    <None Include="assignments\chapter4\Assignment5.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
+    <None Include="assignments\chapter4\Assignment2.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
   </ItemGroup>
 </Project>
