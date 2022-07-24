@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net5.0</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
@@ -23,7 +23,6 @@
     <Compile Remove="Eg1.cs" />
     <Compile Remove="Eg2.cs" />
     <Compile Remove="Eg3.cs" />
-    <Compile Remove="Program.cs" />
     <Compile Remove="assignments\chapter2\Student.cs" />
     <Compile Remove="assignments\chapter3\Assignment1.cs" />
     <Compile Remove="assignments\chapter3\Assignment2.cs" />
@@ -33,12 +32,14 @@
     <Compile Remove="assignments\chapter4\Assignment4.cs" />
     <Compile Remove="assignments\chapter4\Assignment5.cs" />
     <Compile Remove="assignments\chapter4\Assignment2.cs" />
+    <Compile Remove="ClassSample.cs" />
+    <Compile Remove="Program.cs" />
+    <Compile Remove="assignments\ProductOrderList.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Eg1.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
     <None Include="Eg2.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
     <None Include="Eg3.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
-    <None Include="Program.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
     <None Include="assignments\chapter2\Student.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
     <None Include="assignments\chapter3\Assignment1.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
     <None Include="assignments\chapter3\Assignment2.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
@@ -48,5 +49,8 @@
     <None Include="assignments\chapter4\Assignment4.cs" />
     <None Include="assignments\chapter4\Assignment5.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
     <None Include="assignments\chapter4\Assignment2.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
+    <None Include="PasswordCheck.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
+    <None Include="Program.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
+    <None Include="assignments\ProductOrderList.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
   </ItemGroup>
 </Project>
